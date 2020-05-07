@@ -43,7 +43,6 @@
         $fileName = $_FILES['file']['name'];
         $tmpName = $_FILES['file']['tmp_name'];
         $path = './files/';
-        $pathDocs = './docs/';
         $newFolderName = 'usuario-'.date('m').'/';
 
         $subirArchivo = uploadPhoto($fileName, $tmpName, $path, $newFolderName);
